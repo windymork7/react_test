@@ -37,7 +37,6 @@ class App extends Component{
   }
 
   getContent(){
-    console.log(getContent)
     var _title, _desc, _article = null;
     if (this.state.mode === "welcome") {
       _title = this.state.welcome.title;
