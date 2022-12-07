@@ -26,7 +26,6 @@ class App extends Component{
   }
 
   getReadContent(){
-    console.log("getReadContent")
     var i = 0;
     while(i < this.state.contents.length){
       var data = this.state.contents[i];
