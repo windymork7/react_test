@@ -12,7 +12,7 @@ class Subject extends Component{
           <li><a href="/update" onClick={function(e){
             e.preventDefault();
             this.props.onChangeMode("update");
-          }}>update</a></li>
+          }.bind(this)}>update</a></li>
           <li><input onClick={function(e){
             e.preventDefault();
             this.props.onChangeMode("delete");
